@@ -62,9 +62,7 @@ const Skills = () => {
                       </span>
                     )}
                   </div>
-                  <div className="mt-2 text-gray-500 font-medium text-sm">
-                    {makeDisplayName(skill.profiles)}
-                  </div>
+
                   <h3 className="mt-2 truncate text-lg font-medium text-gray-900 group-hover:text-blue-600">
                     {skill.title}
                   </h3>

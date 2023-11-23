@@ -232,5 +232,33 @@
         "placeholder": "Enter some notes about what the blog covers"
       }
     ]
+  },
+  {
+    "slug": "unit-test-generator",
+    "title": "Unit Test Generator",
+    "description": "Streamline your software testing process with our powerful app that automatically generates unit tests for your code. Try our unit test generator today and accelerate your development cycle!",
+    "iconUrl": "https://i.imgur.com/SYL3f0M.png",
+    "inputs": [
+      {
+        "field": "function",
+        "title": "Function",
+        "type": "code",
+        "placeholder": "Paste the function here"
+      },
+      {
+        "field": "language",
+        "title": "Programming Language",
+        "type": "select",
+        "placeholder": "Select an Option",
+        "options": ["Python", "Javascript", "Other"]
+      },
+      {
+        "field": "noOfTests",
+        "title": "Number of tests",
+        "type": "text",
+        "placeholder": "Number of tests"
+      }
+    ]
   }
 ]
+

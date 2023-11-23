@@ -21,10 +21,18 @@ export function EditSkillForm({ skillData, setSkillData, onSubmit, editMode }) {
       <SlugInput
         field="slug"
         placeholder="email-generator"
-        label="URL Slug"
+        label="Slug"
         required
         value={skillData.slug}
         onChange={makeOnChange("slug")}
+      />
+      <TextInput
+        field="iconUrl"
+        placeholder="Enter Icon URL"
+        label="Icon URL"
+        required
+        value={skillData.iconUrl}
+        onChange={makeOnChange("iconUrl")}
       />
       <TextInput
         field="description"

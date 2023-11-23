@@ -28,6 +28,7 @@ export default function BuildPage() {
       const newSkill = {
         title: skillData.title,
         slug: skillData.slug,
+        iconUrl: skillData.iconUrl,
         description: skillData.description,
         system_prompt: skillData.system_prompt,
         user_prompt: skillData.user_prompt,
@@ -54,7 +55,7 @@ export default function BuildPage() {
   return (
     <>
       <Head>
-        <title>Build a Skill - Jobot</title>
+        <title>Build a Skill - EffiBot</title>
       </Head>
       <div className="flex flex-col h-screen">
         <Navbar />

@@ -31,7 +31,7 @@ export default function Login() {
         <div className="mx-auto max-w-md">
           <div className="border self-center rounded-lg my-8 p-4 m-4">
             <div className="text-center text-xl font-bold text-gray-800">
-              Log In - Jobot
+              Log In - EffiBot
             </div>
 
             <div className=" flex flex-col my-4">

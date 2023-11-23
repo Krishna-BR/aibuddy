@@ -14,9 +14,9 @@ export default function Navbar() {
           <div className="text-2xl font-medium text-gray-800 flex items-center">
             <Link href="/">
               <Image
-                src="/jobot_text_logo.png"
+                src="/effbot_logo_text-2.PNG"
                 height={32}
-                width={117}
+                width={150}
                 className="hidden md:block object-contain"
                 alt="logo"
                 unoptimized
@@ -42,7 +42,7 @@ export default function Navbar() {
               Build
             </Link>
             <Link
-              href="https://github.com/jovianhq/jobot"
+              href="https://github.com/Krishna-BR/aibuddy"
               className="text-gray-500 hover:text-blue-600 ml-4"
               target="_blank"
               rel="noreferrer"
